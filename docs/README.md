@@ -46,31 +46,14 @@ OctoAcme projects progress through five key phases:
 
 ## How OctoAcme Executes
 
-### Quality & Testing
-- Unit tests for new logic and integration tests where applicable
-- End-to-end smoke tests for critical flows before release
-- Security scanning in CI pipeline
-- Manual QA for feature acceptance when needed
-- Definition of Done enforced before PR merge
+### Execution & Quality Framework
+OctoAcme emphasizes iterative delivery through sprint-based workflows managed on GitHub Projects with columns for Backlog, Ready, In Progress, In Review, QA, and Done. During execution, the team maintains daily 15-minute standups to surface blockers and dependencies, complemented by weekly delivery syncs and demos. Quality is baked into the process through unit and integration testing, automated CI/CD pipelines with linting and security scanning, and acceptance criteria-driven development. Pull requests are kept small (≤400 lines when possible) and require at least one approval before merging. This combination of frequent feedback loops, automated quality gates, and clear acceptance criteria enables rapid, reliable delivery while maintaining high code standards.
 
-### Communication Cadence
-- **Daily**: 15-minute standups (progress, blockers, dependencies)
-- **Weekly**: Delivery sync and PM/PdM alignment meeting
-- **Sprint/Milestone**: Demo and stakeholder review
-- **Monthly**: Executive-level stakeholder updates (as needed)
+### Risk Management & Communication
+OctoAcme maintains structured risk governance through a centralized Risk Register that tracks each risk's description, impact, likelihood, owner, mitigation plan, and status, with regular review during weekly syncs. The organization employs a three-level escalation path (Team → PM → Product Lead → Sponsor) for blockers that cannot be resolved locally, ensuring rapid escalation of business-impacting issues. Stakeholder communication follows a consistent cadence of weekly status updates, milestone-based announcements, and monthly stakeholder briefings using standardized templates that highlight progress, next steps, risks, and decisions needed. This transparency-first approach reduces surprises and enables proactive stakeholder engagement throughout the project lifecycle.
 
-### Workflow Standards
-- Small pull requests (≤400 lines when possible)
-- Include issue link and acceptance criteria in PR description
-- Automated tests and linting in CI before review
-- Require at least one approval before merging
-- GitHub Projects board for tracking (Backlog → Ready → In Progress → In Review → QA → Done)
-
-### Risk & Blocker Management
-- Maintain Risk Register with ID, description, impact, likelihood, owner, mitigation, and status
-- Three-level escalation path: Team → PM → Product Lead → Sponsor
-- Weekly risk review in delivery sync
-- Escalation of business-impacting issues within one business day
+### Continuous Learning & Improvement
+At the conclusion of each sprint, release, or significant milestone, OctoAcme conducts structured retrospectives (45–75 minutes) to capture what went well, identify improvements, and generate action items with assigned owners and due dates. These improvements feed directly back into the project backlog or organizational processes, creating a feedback loop that strengthens execution over time. By combining clear role definitions, repeatable artifacts (checklists, templates, risk registers), and a culture of psychological safety, OctoAcme ensures that learnings are institutionalized and team members have consistent access to proven processes.
 
 ## Quick Start
 
